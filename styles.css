@@ -1,13 +1,15 @@
 :root {
-    --light-red: hsl(0, 100%, 67%);
-    --orangey-yellow: hsl(39, 100%, 56%);
-    --green-teal: hsl(166, 100%, 37%);
-    --cobalt-blue: hsl(234, 85%, 45%);
+    --light-red: rgb(255, 105, 105);
+    --orangey-yellow: rgb(255, 189, 105);
+    --green-teal: rgb(59, 255, 105);
+    --cobalt-blue: rgb(60, 118, 255);
 
-    --white: hsl(0, 0%, 100%);
-    --pale-blue: hsl(221, 100%, 96%);
-    --light-lavender: hsl(241, 100%, 89%);
-    --dark-gray-blue: hsl(224, 30%, 27%);
+    --white: rgb(255, 255, 255);
+    --pale-blue: rgb(213, 240, 255);
+    --light-lavender: rgb(229, 204, 255);
+    --dark-gray-blue: rgb(58, 89, 134);
+
+    --opacity-containers: 0.5;
 }
 
 body {
@@ -94,6 +96,22 @@ body {
     align-items: center;
 }
 
+#reaction-container {
+    background-color: rgba(255, 105, 105, 0.1);
+}
+
+#memory-container {
+    background-color: rgba(255, 189, 105, 0.1);
+}
+
+#verbal-container {
+    background-color: rgba(59, 255, 105, 0.1);
+}
+
+#visual-container {
+    background-color: rgba(60, 118, 255, 0.1);
+}
+
 .icon-container {
     display: flex;
     flex-direction: row;
@@ -101,8 +119,21 @@ body {
     align-items: center;
 }
 
+#reaction-text {
+    color: var(--light-red);
+}
 
+#memory-text {
+    color: var(--orangey-yellow);
+}
 
+#verbal-text {
+    color: var(--green-teal);
+}
+
+#visual-text {
+    color: var(--cobalt-blue);
+}
 
 /* FONT INFO
 
