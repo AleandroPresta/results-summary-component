@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="mediaqueries.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Results summary component</title>
+  <title>Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -17,11 +17,44 @@
 </head>
 <body>
 
-  
+  <div class="card">
+    <div class="left-section">
+      <h3>Your Result</h3>
+      <div class="result-container">
+        <img src="" alt="Result score image">
+      </div>
+      <h2>Great</h2>
+      <p>You scored higher then 65% of the people who have taken this tests.</p>
+    </div>
+    <div class="right-section">
+      <h3>Summary</h3>
+      <div class="scores-container">
+        <div class="score-container">
+          <img src="" alt="Reaction icon" class="score-icon">
+          <h4>Reaction</h4>
+          <p class="score-p" id="reaction-score-p">80/100</p>
+        </div>
+        <div class="score-container">
+          <img src="" alt="Memory icon" class="score-icon">
+          <h4>Memory</h4>
+          <p class="score-p" id="memory-p">92/100</p>
+        </div>
+        <div class="score-container">
+          <img src="" alt="Verbal icon" class="score-icon">
+          <p class="score-p" id="verbal-p">61/100</p>
+        </div>
+        <div class="score-container">
+          <img src="" alt="Visual icon" class="score-icon">
+          <p class="score-p" id="visual-p">72/100</p>
+        </div>
+      </div>
+      <button>Continue</button>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/AleandroPresta">Aleandro Presta</a>.
   </div>
 </body>
 </html>
