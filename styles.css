@@ -166,6 +166,11 @@ button {
   margin: 6%;
   font-weight: 700;
 }
+
+b {
+  color:var(--dark-gray-blue);
+  font-weight: 800;
+}
 /* FONT INFO
 
 font-family: "Hanken Grotesk", sans-serif;
