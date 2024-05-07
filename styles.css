@@ -24,7 +24,7 @@ body {
 .card {
     display: flex;
     flex-direction: row;
-    height: 50%;
+    height: 65%;
     width: 50%;
 }
 
@@ -38,7 +38,6 @@ body {
     padding-top: 2%;
     color: var(--white);
     border-radius: 20px;
-    height: 63vh;
 }
 
 .gradient-background {
@@ -90,7 +89,6 @@ body {
     border: 2px solid white;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 62.5vh;
 }
 
 .right-section > h3 {
